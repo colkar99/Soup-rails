@@ -1,0 +1,6 @@
+#1 rails new [app_name]
+#2 rails generate model Soup name:string featured:boolean category_id:integer
+#3 rails generate model Category name:string
+#4 rake db:migrate
+#5 rails generate controller Soups
+#6 rails generate controller Categories
